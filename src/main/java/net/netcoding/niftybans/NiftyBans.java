@@ -1,6 +1,6 @@
 package net.netcoding.niftybans;
 
-import net.netcoding.niftybungee.minecraft.BungeePlugin;
+import net.netcoding.nifty.bungee.api.plugin.BungeePlugin;
 
 public class NiftyBans extends BungeePlugin {
 
