@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>niftybans</artifactId>
-	<name>NiftyBans</name>
+	<artifactId>bans</artifactId>
+	<name>Bans</name>
 	<version>1.0.0</version>
 
 	<parent>
-		<groupId>net.netcoding</groupId>
-		<artifactId>niftyparent</artifactId>
+		<groupId>net.netcoding.nifty</groupId>
+		<artifactId>parent</artifactId>
 		<version>1.0.0</version>
 	</parent>
 
 	<properties>
 		<skip-copy>true</skip-copy>
-		<minecraft.provider>bukkit</minecraft.provider>
+		<minecraft.provider>minecraft</minecraft.provider>
 	</properties>
 
 	<dependencies>
@@ -22,8 +22,8 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>net.netcoding</groupId>
-			<artifactId>niftybungee</artifactId>
+			<groupId>net.netcoding.nifty</groupId>
+			<artifactId>bungee</artifactId>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
